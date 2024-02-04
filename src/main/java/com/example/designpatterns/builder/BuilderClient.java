@@ -1,6 +1,8 @@
 package com.example.designpatterns.builder;
 
-public class BuilderClient {
+import com.example.designpatterns.Pattern;
+
+public class BuilderClient implements Pattern {
 
     public void triggerPattern() {
         Director director = new Director();
