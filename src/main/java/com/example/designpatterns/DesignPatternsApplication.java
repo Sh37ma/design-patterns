@@ -1,6 +1,6 @@
 package com.example.designpatterns;
 
-import com.example.designpatterns.structuralpatterns.adapter.AdapterClient;
+import com.example.designpatterns.structuralpatterns.bridge.BridgeClient;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
@@ -8,7 +8,8 @@ public class DesignPatternsApplication {
 
     public static void main(String[] args) {
 
-        Pattern client = new AdapterClient();
+        Pattern client = new BridgeClient();
+//        Pattern client = new AdapterClient();
 //		Pattern client = new SingletonClient();
 //		Pattern client = new PrototypeClient();
 //		Pattern client = new FactoryMethodClient();
