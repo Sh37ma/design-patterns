@@ -1,6 +1,6 @@
 package com.example.designpatterns;
 
-import com.example.designpatterns.structuralpatterns.decorator.DecoratorClient;
+import com.example.designpatterns.structuralpatterns.facade.FacadeClient;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
@@ -8,7 +8,8 @@ public class DesignPatternsApplication {
 
     public static void main(String[] args) {
 
-        Pattern client = new DecoratorClient();
+        Pattern client = new FacadeClient();
+//        Pattern client = new DecoratorClient();
 //      Pattern client = new CompositeClient();
 //      Pattern client = new BridgeClient();
 //      Pattern client = new AdapterClient();
