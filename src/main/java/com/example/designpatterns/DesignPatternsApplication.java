@@ -1,6 +1,6 @@
 package com.example.designpatterns;
 
-import com.example.designpatterns.behavioralpatterns.chainofresponsibility.ChainOfResponsibilityClient;
+import com.example.designpatterns.behavioralpatterns.command.CommandClient;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
@@ -8,7 +8,8 @@ public class DesignPatternsApplication {
 
     public static void main(String[] args) {
 
-        Pattern client = new ChainOfResponsibilityClient();
+        Pattern client = new CommandClient();
+//        Pattern client = new ChainOfResponsibilityClient();
 //        Pattern client = new ProxyClient();
 //        Pattern client = new FlyweightClient();
 //        Pattern client = new FacadeClient();
