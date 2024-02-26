@@ -1,6 +1,6 @@
 package com.example.designpatterns;
 
-import com.example.designpatterns.behavioralpatterns.iterator.IteratorClient;
+import com.example.designpatterns.behavioralpatterns.mediator.MediatorClient;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
@@ -8,7 +8,8 @@ public class DesignPatternsApplication {
 
     public static void main(String[] args) {
 
-        Pattern client = new IteratorClient();
+        Pattern client = new MediatorClient();
+//        Pattern client = new IteratorClient();
 //        Pattern client = new CommandClient();
 //        Pattern client = new ChainOfResponsibilityClient();
 //        Pattern client = new ProxyClient();
