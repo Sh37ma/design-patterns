@@ -1,6 +1,6 @@
 package com.example.designpatterns;
 
-import com.example.designpatterns.behavioralpatterns.memento.MementoClient;
+import com.example.designpatterns.behavioralpatterns.observer.ObserverClient;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
@@ -8,7 +8,8 @@ public class DesignPatternsApplication {
 
     public static void main(String[] args) {
 
-        Pattern client = new MementoClient();
+        Pattern client = new ObserverClient();
+//        Pattern client = new MementoClient();
 //        Pattern client = new MediatorClient();
 //        Pattern client = new IteratorClient();
 //        Pattern client = new CommandClient();
