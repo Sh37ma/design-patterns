@@ -1,6 +1,6 @@
 package com.example.designpatterns;
 
-import com.example.designpatterns.behavioralpatterns.state.StateClient;
+import com.example.designpatterns.behavioralpatterns.strategy.StrategyClient;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
@@ -8,7 +8,8 @@ public class DesignPatternsApplication {
 
     public static void main(String[] args) {
 
-        Pattern client = new StateClient();
+        Pattern client = new StrategyClient();
+//        Pattern client = new StateClient();
 //        Pattern client = new ObserverClient();
 //        Pattern client = new MementoClient();
 //        Pattern client = new MediatorClient();
